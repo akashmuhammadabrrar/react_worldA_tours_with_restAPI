@@ -8,3 +8,15 @@
   background-color: bisque;
   color: black;
 }
+.flag_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border: 2px solid slateblue;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 15px;
+}
+.flag_container img {
+  width: 80px;
+}
